@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+    <title>Juyoung's website</title>
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #backgroundimage{
+            border: 0;
+            padding: 0;
+            background-image:url(배경사진1.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 100%;
+            background-repeat: no-repeat;
+        }
+        a{
+            color:aliceblue;
+            text-decoration: none;
+        }
+        h4:hover{
+            text-decoration: overline;
+            box-shadow:  3px 8px 35px 0px rgba(0,0,0,.2);
+            transform: translateX(-2px) translateY(-2px);
+            transition: all 0.7s;
+        }
+        h1{ margin:0;
+            padding-top:2.3rem;
+            color:aliceblue;
+            text-align: center;
+            font-size:5.3rem;
+            font-family: 'Charm', cursive;
+
+        } 
+        h4{
+            margin:0;
+            padding: 0;
+            padding-right:6px;
+            display: inline-block;
+            font-size:2rem;
+            color:aliceblue;
+            font-family: 'Charm', cursive;
+        }
+        #withwooseog{
+            position: absolute;
+            top: 63.5vh/*480px*/;
+            left:27vw/*420px*/;
+        }
+        #withoutwooseog{
+            position: absolute;
+            top: 65vh/*493px*/;
+            right:32.5vw/*left:760px*/;
+        }
+        h5{display:none;}
+    </style>
+</head>
+<body>
+    <div id="backgroundimage">
+        <h1><a href="index.html">SON JUYOUNG</a></h1>
+        
+        <h4 id="withwooseog"><a href="withwooseogli.html">with WooSeog</a></h4>
+        
+        <h4 id="withoutwooseog"><a id="tran" href="withoutwooseogli.html">without WooSeog</a></h4>
+        
+        <h5>강릉여행</h5>
+        <h5>몰라</h5>
+        <h5>아무거나</h5>
+    </div>
+</body>
+</html>
